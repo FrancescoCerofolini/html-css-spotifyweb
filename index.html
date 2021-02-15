@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify</title>
   </head>
@@ -13,22 +18,80 @@
       <!-- MAIN -->
       <main>
         <!-- MAIN NAV -->
-        <section class="main_nav">
-
+        <section id="main_nav" class="container-flex">
+          <div class="top_nav">
+            <div class=" padding_top_standard padding_bottom_standard">
+              <img src="img\logo.svg" class="img_logo" alt="logo">
+            </div>
+            <div class="top_nav_img padding_top_small">
+              <a href="#"> <img src="img\home.svg" alt="home">
+              <span class="top_nav_text">Home</span> </a>
+            </div>
+            <div class="top_nav_img padding_top_small">
+              <a href="#"><img src="img\search.svg" alt="cerca">
+              <span class="top_nav_text">Cerca</span></a>
+            </div>
+            <div class="top_nav_img padding_top_small">
+              <a href="#"><img src="img\libreria.svg" alt="libreria">
+              <span class="top_nav_text">La tua libreria</span></a>
+            </div>
+          </div>
+          <div class="central_nav">
+            <h3 class="white bold padding_left_small">PLAYLIST</h3>
+            <div class="create_playlist padding_left_small">
+              <div class="white_box"><i class="fas fa-plus"></i></div>
+              <a href="#"> <span class="playlist_text">Crea Playlist</span> </a>
+            </div>
+            <nav>
+              <ul class="menu_block padding_left_small">
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+                <li class="padding_top_standard padding_left_small"><a href="#">Nome Playlist</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="profile padding_left_small">
+            <div class="download padding_left_small">
+              <p><i class="far fa-arrow-alt-circle-down"></i> Installa app</p>
+            </div>
+            <hr>
+            <div class="john padding_left_small">
+              <img src="img\profile.svg" alt="profile"> <span>John Doe</span>
+            </div>
+          </div>
         </section>
         <!-- / MAIN NAV -->
         <!-- MAIN CONTENT -->
-        <section class="main_content">
-          Lorem i qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip s nisi uttate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <section id="main_content">
+
         </section>
         <!-- / MAIN CONTENT -->
 
       </main>
       <!-- /MAIN -->
       <!-- FOOTER -->
-      <footer>
-
-
+      <footer class="container-flex">
+        <div class="left">
+          <img src="img\sinister.jpeg" alt="">
+          <span>Sinister Brano Nome</span>
+          <div class="left_center padding_left_standard">
+            <i class="far fa-heart"></i>
+            <i class="far fa-folder padding_left_small"></i>
+          </div>
+        </div>
+        <div class="center">
+          <i class="fas fa-random"></i><i class="fas fa-step-backward"></i><i class="far fa-play-circle"></i><i class="fas fa-step-forward"></i><i class="fas fa-redo"></i>
+          <div class="scrubber">
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="right">
+          <i class="fas fa-redo"></i><i class="fas fa-tv"></i><i class="far fa-volume-up"></i>
+        </div>
       </footer>
       <!-- /FOOTER -->
     </div>
